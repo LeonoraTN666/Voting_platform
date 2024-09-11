@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNAM Voting Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #ff4c4c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .form-group {
+            margin: 20px 0;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #ff4c4c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #d43a3a;
+        }
+        .vote-box {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .categories {
+            margin: 20px 0;
+        }
+        .categories button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .success {
+            color: green;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>UNAM Voting Platform</h1>
+        </div>
+
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <button class="btn">Log In</button>
+
+        <div class="vote-box">
+            <h2>Welcome, Leonora Nashipeta</h2>
+            <p>Your vote counts!</p>
+        </div>
+
+        <div class="categories">
+            <button>Vice President</button>
+            <button>Secretary</button>
+            <button>Finance</button>
+        </div>
+
+        <div class="success">
+            <p>Vote Successful!</p>
+            <button class="btn">Logout</button>
+        </div>
+    </div>
+
+</body>
+  </html>
